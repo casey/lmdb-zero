@@ -271,7 +271,7 @@
 
 #![deny(missing_docs)]
 
-extern crate liblmdb_sys as ffi;
+extern crate ord_liblmdb_sys as ffi;
 extern crate libc;
 extern crate supercow;
 #[macro_use] extern crate bitflags;

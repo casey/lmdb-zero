@@ -1,6 +1,6 @@
 [package]
-name = "lmdb-zero"
-version = "0.4.4"
+name = "ord-lmdb-zero"
+version = "0.4.5"
 authors = ["FullContact, Inc", "Jason Lingle"]
 license = "MIT/Apache-2.0"
 readme = "README.md"
@@ -18,7 +18,7 @@ wrapper around LMDB.
 travis-ci = { repository = "AltSysrq/lmdb-zero" }
 
 [dependencies]
-liblmdb-sys = "0.2.2"
+ord-liblmdb-sys = "0.2.3"
 bitflags = "0.9.1"
 libc = "0.2.14"
 supercow = "0.1.0"
